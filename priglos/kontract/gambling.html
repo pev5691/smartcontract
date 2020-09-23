@@ -1,0 +1,174 @@
+var win = window.open("http://myrusakov.ru", "My Window", "width=400,height=500,menubar=yes,toolbar=no,location=yes,scrollbars=yes");
+<script>
+
+    window.addEventListener('Init',function ()
+    {
+        CheckInstall();
+        UpdateInfo();
+        $("idApp").innerHTML=""+SMART.Num+"."+SMART.Name;
+    })
+    window.addEventListener('UpdateInfo',UpdateInfo);
+    window.addEventListener('Event',function(e)
+    {
+        var Data=e.detail;
+        var Str=Data.Description;
+        if(Data.Error)
+            SetError(Str);
+        else
+        {
+            SetStatus(Str);
+            $("idResult").innerText=Str.toUpperCase();
+            if(Str.substr(0,4)==="Win:")
+                $("idResult").className="win";
+            else
+                $("idResult").className="los";
+        }
+        StopWait();
+    });
+    function UpdateInfo()
+    {
+        $("idMaxSum").innerText="from 1 to "+Math.trunc(FLOAT_FROM_COIN(BASE_ACCOUNT.Value)*3/100);
+    }
+    function SendBet()
+    {
+        $("idResult").innerText="";
+        var Sum=$("idSumBet").value;
+        if(Sum<1)
+        {
+            SetError("The minimum amount must be 1");
+            return;
+        }
+        var sumStr=Math.floor(Sum*10) + "";
+        var Choose=sumStr.charAt((sumStr.length-1));
+        var AccFrom=$("idUser").value;
+        SendCall(AccFrom,"Round",{Sum:Sum,Choose:Choose},AccFrom);
+        StartWait();
+    }
+    var idWaitInterval=0, CountWait=0;
+    function StartWait()
+    {
+        StopWait();
+        $("idResult").innerText="Wait";
+        CountWait=0;
+        idWaitInterval=setInterval(function ()
+        {
+            CountWait++;
+            $("idResult").innerText+=".";
+            if(CountWait>16)
+                StopWait();
+        },1000);
+    }
+    function StopWait()
+    {
+        if(idWaitInterval)
+            clearInterval(idWaitInterval);
+        idWaitInterval=0;
+    }
+
+</script>
+
+<script>
+    var SaveIdArr;
+    if(!SaveIdArr)
+        SaveIdArr=[];
+    SaveIdArr.push("idUser");
+    function SaveValues()
+    {
+        SaveToStorageByArr(SaveIdArr);
+    }
+    function LoadValues()
+    {
+        LoadFromStorageByArr(SaveIdArr,function ()
+        {
+            UpdateFillUser();
+        });
+    }
+
+    function UpdateFillUser()
+    {
+        var Arr=[];
+        for(var i=0;i<USER_ACCOUNT.length;i++)
+        {
+            var Item=USER_ACCOUNT[i];
+            var Value={value:Item.Num, text:Item.Num+"."+Item.Name+"  "+SUM_TO_STRING(Item.Value,Item.Currency,1)};
+            Arr.push(Value);
+        }
+        FillSelect("idUser",Arr);
+    }
+    window.addEventListener('Init',function ()
+    {
+        LoadValues();
+    });
+    window.addEventListener('UpdateInfo',UpdateFillUser);
+
+
+</script>
+
+
+<style type="text/css">
+    body
+    {
+        background-color: #E7E7E7;
+        color: black;
+    }
+    .item
+    {
+        z-index:1000;
+        position: relative;
+        top:33%;
+        left: 33%;
+        height:300px;
+        width:480px;
+        padding: 5px;
+        text-align: center;
+        border: 3px solid #E93C07;
+        border-radius: 4px;
+        background-color: #E7C951;
+    }
+    .radius
+    {
+        border-radius: 4px;
+        max-height: 34px;
+        height: 34px;
+    }
+    button.radius
+    {
+        color:white;
+        width:100px;
+        border-color: #0d341a;
+    }
+    input.radius
+    {
+        height: 28px;
+    }
+    .win
+    {
+        color: #E93C07;
+    }
+    .los
+    {
+        color: #151515;
+    }
+
+
+</style>
+<DIV class="item">
+    <DIV id="idApp" style="width: 100%;height: 40px;font-size: x-large">WBN-GAMBLING-1</DIV>
+    User:
+    <select size="1" id="idUser" style="width: 250px" class="" onchange="SaveValues()">
+        <option value="0">User1</option>
+    </select>
+    <BR>
+    <DIV class="" style="height: 32px;font-size: x-large;" id="idResult"></DIV>
+
+    <BR>Bet: <input style="width: 100px" class="radius" id="idSumBet" onchange="SaveValues()">
+    <button class="radius" onclick="SendBet()" style="background-color: #E93C07;">Go</button>
+    <BR>
+    <DIV style="text-align: left;">
+        <BR>1. Set the bet amount: <B id="idMaxSum">0</B>.
+        <BR>2. First number after the decimal point is your choice.
+        <BR>3. For example: bet 1.68, choice is 6; bet 2, choice is 0.
+        <BR>4. Get x10 of your bet if you lucky.
+        <DIV style="font-size: smaller">The probability of winning is 1/10. No casino profits.</DIV>
+    </DIV>
+</DIV>

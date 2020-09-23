@@ -1,0 +1,26 @@
+{
+  "name": "priglos",
+  "version": "1.0.0",
+  "description": "First money for new people",
+  "main": "site.js",
+  "scripts": {
+    "test": "node site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pev5691/priglos.git"
+  },
+  "keywords": [
+    "smart-contract;",
+    "bounty"
+  ],
+  "author": "pev5691@yandex.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pev5691/priglos/issues"
+  },
+  "homepage": "https://github.com/pev5691/priglos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
