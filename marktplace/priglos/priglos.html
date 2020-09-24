@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="http://vdska.wellbeing.su:34734/html/css/mobile-wallet.css">
     <meta name="viewport" content="width=device-width" />
 
-    <style>
+<!--
         html {
             min-height: 100%
         }
@@ -26,7 +26,8 @@
             margin:0;
             padding:0;
             color:#555;
-        }
+        } -->
+    <style>
         .elasticstack {
             position:relative;
             margin:40px auto;
@@ -35,7 +36,6 @@
             height:250px;
             list-style: none;
         }
-
         .elasticstack li {
             position: absolute;
             z-index: 1;
@@ -60,9 +60,10 @@
             -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
             transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
         }
+        </style>
+        <!--
         .layer {
-            height: 800px; /* Высота блока */
-            width: 540px; /* Ширина блока */
+            alignment: center;
             overflow: hidden; /* Добавляем полосы прокрутки */
             background: #90EE90; /* Цвет фона */
             padding: 15px; /* Поля вокруг текста */
@@ -74,7 +75,7 @@
             text-transform: none;
             color:#FF0000;
         }
-    </style>
+-->
 </head>
 
 <body align="center">
@@ -182,13 +183,13 @@
         <div class="attention" align="center" title="Это тестовый интерфейс, логика ещё не привязана">Для разработки и привязки логики смартконтракта требуется сообразительный пользователь овладевший <br>
             <b>технологией NODEJS и JAVASCRIPT</b>
         <br>Связь с автором проекта - через контакты на сайте
-<div style="align-content: space-around">
-    <ul id="idStableScroll" align='center' class="social-list">
-    <li class="social-list__item"><a href="https://t.me/wellbeingnetwork">Telegram</a></li>
-    <li class="social-list__item"><a href="https://discord.gg/t9V9uj">Discord</a></li>
-    <li class="social-list__item"><a href="https://www.facebook.com/WBNProjectsAutor">Facebook</a></li>
-    <li class="social-list__item"><a href="https://github.com/pev5691/wbn1995">Github</a></li>
-    <li class="social-list__item">&copy; 2020 WellBeing Network.</li>
+<div>
+    <ul id="idStableScroll" class="social-list">
+    <li class="social-list__item" title="Канал в Телеграмм"><a href="https://t.me/wellbeingnetwork">Telegram</a></li>
+    <li class="social-list__item" title="Канал в дискорде"><a href="https://discord.gg/t9V9uj">Discord</a></li>
+    <li class="social-list__item" title="Страница на facebook"><a href="https://www.facebook.com/WBNProjectsAutor">Facebook</a></li>
+    <li class="social-list__item" title="Репозиторий на Github.com"><a href="https://github.com/pev5691/wbn1995">Github</a></li>
+    <li title="Представлено проектом Благополучие">&copy; 2020 WellBeing Network.</li>
     </ul>
 </div>
     </div>

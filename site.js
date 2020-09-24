@@ -10,6 +10,6 @@ var staticSiteOptions = {
 
 // Запуск сайта:
 express().use(express.static(
-    path.join(__dirname, 'kontract'),
+    path.join(__dirname, 'marktplace'),
     staticSiteOptions
 )).listen(staticSiteOptions.portnum);

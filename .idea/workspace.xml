@@ -11,9 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Загрузка исходнико контракта">
+      <change afterPath="$PROJECT_DIR$/marktplace/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/priglos/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/priglos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/priglos/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/gambling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/img/slaid1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/img/slaid1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/img/slaid2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/img/slaid2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/img/slaid3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/img/slaid3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/img/slaid4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/img/slaid4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/img/slaid5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/img/slaid5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/priglos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/index.html_" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/js/draggabilly.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/js/draggabilly.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/js/elastiStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/js/elastiStack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/kontract/js/modernizr.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/js/modernizr.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/priglos/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +67,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/marktplace" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/priglos" />
       <recent name="$PROJECT_DIR$/priglos/ElasticStack" />
     </key>
   </component>
@@ -69,7 +85,10 @@
       <workItem from="1600663496859" duration="2208000" />
       <workItem from="1600751714660" duration="13839000" />
       <workItem from="1600806218188" duration="334000" />
-      <workItem from="1600885233415" duration="1072000" />
+      <workItem from="1600885233415" duration="8595000" />
+      <workItem from="1600939163008" duration="1761000" />
+      <workItem from="1600941049170" duration="1761000" />
+      <workItem from="1600942899928" duration="251000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -85,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600885886319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Загрузка исходнико контракта">
+      <created>1600886363031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600886363031</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +149,22 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="498" y="284" key="Github.ShareDialog/0.0.1318.768@0.0.1318.768" timestamp="1600886010553" />
+    <state width="1295" height="185" key="GridCell.Tab.0.bottom" timestamp="1600939232722">
+      <screen x="0" y="0" width="1318" height="768" />
+    </state>
+    <state width="1295" height="185" key="GridCell.Tab.0.bottom/0.0.1318.768@0.0.1318.768" timestamp="1600939232722" />
+    <state width="1295" height="185" key="GridCell.Tab.0.center" timestamp="1600939232719">
+      <screen x="0" y="0" width="1318" height="768" />
+    </state>
+    <state width="1295" height="185" key="GridCell.Tab.0.center/0.0.1318.768@0.0.1318.768" timestamp="1600939232719" />
+    <state width="1295" height="185" key="GridCell.Tab.0.left" timestamp="1600939232717">
+      <screen x="0" y="0" width="1318" height="768" />
+    </state>
+    <state width="1295" height="185" key="GridCell.Tab.0.left/0.0.1318.768@0.0.1318.768" timestamp="1600939232717" />
+    <state width="1295" height="185" key="GridCell.Tab.0.right" timestamp="1600939232720">
+      <screen x="0" y="0" width="1318" height="768" />
+    </state>
+    <state width="1295" height="185" key="GridCell.Tab.0.right/0.0.1318.768@0.0.1318.768" timestamp="1600939232720" />
     <state x="388" y="86" width="534" height="595" key="RollbackChangesDialog" timestamp="1600885721128">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
@@ -131,10 +173,10 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600885274254" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600886095868">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600886374411">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600886095868" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600886374411" />
     <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
