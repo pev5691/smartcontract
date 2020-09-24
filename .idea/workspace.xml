@@ -11,7 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Форимрование маркетплейса для контрактов">
-      <change beforePath="$PROJECT_DIR$/marktplace/priglos/priglos.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/priglos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -73,7 +74,10 @@
       <workItem from="1600885233415" duration="8595000" />
       <workItem from="1600939163008" duration="1761000" />
       <workItem from="1600941049170" duration="1761000" />
-      <workItem from="1600942899928" duration="1297000" />
+      <workItem from="1600942899928" duration="1770000" />
+      <workItem from="1600954705161" duration="984000" />
+      <workItem from="1600962959220" duration="833000" />
+      <workItem from="1600964796754" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -110,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600943866788</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Форимрование маркетплейса для контрактов">
+      <created>1600944222193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600944222193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,14 +180,14 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="388" y="86" width="534" height="595" key="RollbackChangesDialog/0.0.1318.768@0.0.1318.768" timestamp="1600885721128" />
-    <state x="148" y="19" key="SettingsEditor" timestamp="1600885274254">
+    <state x="148" y="19" key="SettingsEditor" timestamp="1600955047256">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600885274254" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600943871752">
+    <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600955047256" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600944240963">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600943871752" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600944240963" />
     <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
       <screen x="0" y="0" width="1318" height="768" />
     </state>

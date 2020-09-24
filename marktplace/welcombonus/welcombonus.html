@@ -1,0 +1,98 @@
+<!--
+  ~ @project: WellBeingNetwork
+  ~ @version: Development (beta)
+  ~ @license: MIT (not for evil)
+  ~ @copyright: Evgeny Pustolenko (pev5691)  2019-2020 [pev5691@yandex.ru]
+  ~ Facebook: https://www.facebook.com/pev5691
+  ~ Telegram:  https://t.me/wellbeingnetwork
+  ~ Github: https://github.com/pev5691/smartcontract
+  ~ Discord: https://discord.gg/t9V9uj
+  -->
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Пай "ПРИГЛАСИТЕЛЬНЫЙ" Кооператив "Хайп Благополучие"</title>
+    <link rel="stylesheet" href="http://vdska.wellbeing.su:34734/html/css/mobile-wallet.css">
+    <title>Welcome Bonus</title>
+    </head>
+<body></head>
+
+<script src="/file/19741/0"></script>
+
+<!--update-1-->
+<style>
+    .choose-play__play-btn[disabled],.choose-play__play-btn[disabled]:hover
+    {
+        opacity: .2;
+        box-shadow: 0 0 20px #ff5735;
+        border-radius: 50%;
+    }
+    .novisible
+    {
+        opacity: 0;
+    }
+
+    /*update 2*/
+    .btw
+    {
+        margin-left: 8px;
+        width: 120px;
+        height:32px;
+    }
+</style>
+
+
+
+<div class="item">
+    <div class="item__wrapper" id="idMain" align="center">
+        <div id="idApp" style="width: 100%;height: 80px;font-size: x-large">
+            <img src="https://terafoundation.org/files/dapps/airdrop/img/logo.png" height="100" width="363">
+        </div>
+        <p style="text-transform: uppercase; max-width: 460px;">ДЛЯ УВЕЛИЧЕНИЯ ШАНСОВ НА ВЫИГРЫШ, НАЖИМАЙ ЦЕНТРАЛЬНУЮ кнопку ТАК ЧАСТО, КАК СМОЖЕШЬ, в течении всего раунда. Выигрышь возможен в любую секунду!</p>
+        <div class="account-choosing">
+            <div class="create-acc hidden">
+                <p class="create-acc__intro">ЖМИ ‘СОЗДАТЬ ЭККАУНТ’ ДЛЯ ЗАПУСКА ПРОЦЕССОВ</p>
+                <div class="create-acc__wrapper">
+                    <button class="create-acc__create-btn" title="Create account" onclick="PressCreateAccount()"></button>
+                </div>
+            </div>
+            <div class="choose-play">
+                <select size="1" id="idUser" class="account-choosing__select" onchange="SaveValues()">
+                    <option value="0">Загрузка...</option>
+                </select>
+                <div class="choose-play__wrapper">
+                    <span class="text-yellow">СЛЕДУЮЩИЙ РАУНД <br><span id="idNextStart">00:00</span></span>
+                    <button class="choose-play__play-btn" title="Play" id="idClicker" onclick="SendClick()" disabled=""></button>
+                    <span class="novisible" id="idEnd0">РАУНД ЗАКОНЧИТСЯ <br><span id="idEnd">0:00</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="item__rules-wrapper">
+            <p>ОБЩИЙ ВЫИГРЫШ</p>
+            <p class="item__wins-counter" id="idTotalWin">0</p>
+            <span class="text-grey" style="font-size: 15px;">Available total: <span id="idTotalRest">99999</span> TERA</span>
+            <br><span class="text-grey" style="font-size: 15px;"><a onclick="OpenLink('/web-wallet.html')" style="color: #ababab;line-height: 35px;">ОТКРЫТЬ КОШЕЛЁК</a></span>
+            <h2 class="item__rules-title">ПРАВИЛА</h2>
+            <ul class="text-grey item__rules">
+                <li>1. Укажите свой WBN кошелёк</li>
+                <li>2. Каждый раунд длится 90 секунд</li>
+                <li>3. Каждый раунд стартует один раз в час</li>
+                <li>4. Для выигрыша кликайте мышью в кнопку в течении всего раунда</li>
+                <li>5. Кнопка создает одну транзакцию в блоке</li>
+                <li>6. Только первая транзакция в блоке выигрывает 1 WBN</li>
+                <li>7. Блок создается один раз в три секунды</li>
+            </ul>
+        </div>
+        <!--        <ul class="item__partners">
+                    <li class="btw"><a onclick="OpenLink('https://terafoundation.org/tera-coin.html')"><img src="https://terafoundation.org/files/dapps/airdrop/img/withdraw.png" alt="withdraw"></a></li>
+                    <li class="btw"><a onclick="OpenLink('https://www.mxc.com/trade.html?symbol=TERA_BTC')"><img src="https://terafoundation.org/files/dapps/airdrop/img/mxc.png" alt="withdraw"></a></li>
+                    <li class="btw"><a onclick="OpenLink('https://www.hotbit.io/exchange?symbol=TERA_BTC')"><img src="https://terafoundation.org/files/dapps/airdrop/img/hotbit.png" alt="withdraw"></a></li>
+                    <li class="btw"><a onclick="OpenLink('https://big.one/en/trade/TERA-BTC')"><img src="https://terafoundation.org/files/dapps/airdrop/img/bigone.png" alt="withdraw"></a></li>
+                </ul> -->
+    </div>
+</div>
+</body>
+</html>
