@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Форимрование маркетплейса для контрактов">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marktplace/priglos/priglos.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/priglos/priglos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1600885233415" duration="8595000" />
       <workItem from="1600939163008" duration="1761000" />
       <workItem from="1600941049170" duration="1761000" />
-      <workItem from="1600942899928" duration="955000" />
+      <workItem from="1600942899928" duration="1297000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600943289516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Форимрование маркетплейса для контрактов">
+      <created>1600943866788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600943866788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,10 +173,10 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600885274254" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600943301014">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600943871752">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600943301014" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600943871752" />
     <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
