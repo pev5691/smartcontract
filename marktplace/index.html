@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Маркетплейс для даппов</title>
+    <style>
+        td {
+            font-family: Arial;
+        }
+    </style>
 </head>
 <body>
-<table width="50%" border="1" cellspacing="2" cellpadding="0">
+<table border="1" cellspacing="2" cellpadding="2">
 <tr>
     <td>
-<input type="button" id="button" value="Пай подарочный" />
+<input type="button" id="button" value="Смарт-контракт Пригласительный" />
 <script>
     var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=800px,width=540px,left=330"
     button.onclick = function() {
@@ -16,17 +21,19 @@
     };
 </script>
     </td>
+    <td>Подарочный смарт-контракт для вступления в кооператив "Благополучие"</td>
 </tr>
 <tr>
     <td>
 <input type="button" id="button1" value="Баунти Welcome Bonus" />
 <script>
-    var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=800px,width=540px,left=330"
+    var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=800px,width=660px,left=330"
     button1.onclick = function() {
-        window.open("./welcomebonus/welcomebonus.html", "Welcome Bonus", params);
+        window.open("./welcombonus/welcombonus.html", "Welcome Bonus", params);
     };
 </script>
     </td>
+    <td>Игровой смарт-контракт, позволяющий получить случайное количество монет WBN за удачное нажатие.</td>
 </tr>
 </body>
 </html>

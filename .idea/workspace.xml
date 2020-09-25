@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Форимрование маркетплейса для контрактов">
-      <change afterPath="$PROJECT_DIR$/marktplace/welcombonus/img/wbnwelcome.svg" afterDir="false" />
+    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Welcome Bonus размещение">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marktplace/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" afterDir="false" />
@@ -81,7 +80,7 @@
       <workItem from="1600962959220" duration="833000" />
       <workItem from="1600964796754" duration="244000" />
       <workItem from="1600967333349" duration="4917000" />
-      <workItem from="1601010758535" duration="788000" />
+      <workItem from="1601010758535" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -125,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600944222193</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Welcome Bonus размещение">
+      <created>1601011619597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601011619597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +155,8 @@
     </ignored-roots>
     <MESSAGE value="Загрузка исходнико контракта" />
     <MESSAGE value="Форимрование маркетплейса для контрактов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Форимрование маркетплейса для контрактов" />
+    <MESSAGE value="Welcome Bonus размещение" />
+    <option name="LAST_COMMIT_MESSAGE" value="Welcome Bonus размещение" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="134" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600802764803">
