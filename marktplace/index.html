@@ -5,6 +5,9 @@
     <title>Маркетплейс для даппов</title>
 </head>
 <body>
+<table width="50%" border="1" cellspacing="2" cellpadding="0">
+<tr>
+    <td>
 <input type="button" id="button" value="Пай подарочный" />
 <script>
     var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=800px,width=540px,left=330"
@@ -12,5 +15,18 @@
         window.open("./priglos/priglos.html", "Пай пригласительный", params);
     };
 </script>
+    </td>
+</tr>
+<tr>
+    <td>
+<input type="button" id="button1" value="Баунти Welcome Bonus" />
+<script>
+    var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=800px,width=540px,left=330"
+    button1.onclick = function() {
+        window.open("./welcomebonus/welcomebonus.html", "Welcome Bonus", params);
+    };
+</script>
+    </td>
+</tr>
 </body>
 </html>
