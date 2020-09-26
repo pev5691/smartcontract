@@ -1,0 +1,247 @@
+@font-face
+{
+    font-family: "Gobold";
+    src: url("https://terafoundation.org/files/dapps/airdrop/fonts/Gobold.woff") format("woff");
+}
+
+img {
+    max-width: 100%;
+}
+
+.item {
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/bg_full.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #5a1317;
+    position: relative;
+    resize: both;
+}
+
+.item__wrapper {
+    box-sizing: border-box;
+    font-family: "Gobold", "Arial", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    z-index: 1000;
+    width: 520px;
+    padding: 25px;
+    text-align: center;
+    left: 50%;
+    top: 0;
+    position: relative;
+    transform: translate(-50%, 0%) scale(1);
+    transform-origin: top center;
+}
+
+.text-yellow {
+    color: #ff0;
+}
+
+.text-grey {
+    color: #fff;
+    opacity: .6;
+}
+
+.account-choosing {
+    background: url("https://terafoundation.org/files/dapps/airdrop/img/btn_bg.png") no-repeat;
+    background-size: contain;
+    background-position-x: 50%;
+    padding-top: 70px;
+    height: 280px;
+    width: 100%;
+    max-width: 475px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+
+.create-acc__intro {
+    background: #fff;
+    color: #000;
+    opacity: .8;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    text-transform: lowercase;
+    position: relative;
+    padding: 2px;
+}
+
+.create-acc__intro:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 17px;
+    height: 15px;
+    display: block;
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 17px 15px;
+}
+
+.account-choosing__select {
+    font-family: "Gobold", "Arial", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: #000;
+    opacity: .8;
+    max-width: 320px;
+    width: 100%;
+}
+
+.create-acc__wrapper {
+    position: relative;
+}
+
+.create-acc__wrapper:before,
+.create-acc__wrapper:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 35px;
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/arrow-right.png");
+    background-repeat: no-repeat;
+    background-size: 45px 35px;
+}
+
+.create-acc__wrapper:before {
+    transform: translateY(-50%) rotate(180deg);
+    left: 60px;
+}
+
+.create-acc__wrapper:after {
+    right: 60px;
+}
+
+.create-acc__create-btn {
+    background-color: transparent;
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/create-btn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    cursor: pointer;
+    width: 230px;
+    height: 120px;
+}
+
+.create-acc__create-btn:hover,
+.create-acc__create-btn:focus {
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/create-btn_hover.png");
+    outline: none;
+}
+
+.create-acc__create-btn:active {
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/create-btn_down.png");
+}
+
+.create-acc__create-btn[disabled] {
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/create-btn_dis.png");
+}
+
+.choose-play__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.choose-play__wrapper span {
+    text-transform: lowercase;
+    padding: 20px;
+}
+
+.choose-play__play-btn {
+    background-color: transparent;
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/btn-play_triangle.png"), url("https://terafoundation.org/files/dapps/airdrop/img/btn-play.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%, 0 0;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 120px;
+    background-size: 35px 35px, 130px 120px;
+}
+
+.choose-play__play-btn:hover,
+.choose-play__play-btn:focus {
+    box-shadow: 0 0 20px #ff0;
+    border-radius: 50%;
+    outline: none;
+}
+
+.choose-play__play-btn:active {
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/btn-play_triangle.png"), url("https://terafoundation.org/files/dapps/airdrop/img/btn-play_down.png");
+}
+
+.choose-play__play-btn[disabled] {
+    opacity: .8;
+}
+
+.item__rules-wrapper {
+    background: rgba(0, 0, 0, .6);
+    max-width: 456px;
+    margin: -60px auto 0;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+.item__wins-counter {
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/counter.png");
+    background-repeat: no-repeat;
+    background-size: 160px 50px;
+    color: #000;
+    font-size: 22px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.item__rules-title {
+    font-size: 20px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+.item__rules {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 30px 35px;
+    line-height: 18px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.item__rules li {
+    padding: 10px 0;
+}
+
+.item__partners {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 0;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    cursor: pointer;
+}
