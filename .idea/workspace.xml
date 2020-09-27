@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Welcome Bonus размещение">
-      <change afterPath="$PROJECT_DIR$/marktplace/welcombonus/css/welcombonus.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marktplace/welcombonus/js/welcombonus.js" afterDir="false" />
+    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Настраиваю подборку смартов">
+      <change afterPath="$PROJECT_DIR$/marktplace/welcombonus/img/bg_full.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marktplace/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marktplace/welcombonus/css/welcombonus.css" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/welcombonus/css/welcombonus.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,7 @@
       <workItem from="1601029008107" duration="402000" />
       <workItem from="1601029848899" duration="5112000" />
       <workItem from="1601060534923" duration="748000" />
-      <workItem from="1601109435293" duration="2166000" />
+      <workItem from="1601109435293" duration="3825000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601012950056</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Настраиваю подборку смартов">
+      <created>1601114695875</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601114695875</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +191,8 @@
     <MESSAGE value="Загрузка исходнико контракта" />
     <MESSAGE value="Форимрование маркетплейса для контрактов" />
     <MESSAGE value="Welcome Bonus размещение" />
-    <option name="LAST_COMMIT_MESSAGE" value="Welcome Bonus размещение" />
+    <MESSAGE value="Настраиваю подборку смартов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Настраиваю подборку смартов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="134" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600802764803">
@@ -225,14 +232,15 @@
     </state>
     <state x="144" y="25" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1600971736831" />
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600955047256" />
-    <state x="247" y="157" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601012956856">
+    <state x="247" y="157" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601114703872">
       <screen x="0" y="0" width="1280" height="994" />
     </state>
-    <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1601012956856" />
+    <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1601114703872" />
     <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600944240963" />
-    <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
-      <screen x="0" y="0" width="1318" height="768" />
+    <state x="340" y="160" width="601" height="676" key="find.popup" timestamp="1601190904488">
+      <screen x="0" y="0" width="1280" height="994" />
     </state>
+    <state x="340" y="160" width="601" height="676" key="find.popup/0.0.1280.994@0.0.1280.994" timestamp="1601190904488" />
     <state x="350" y="124" width="618" height="522" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1600757613385" />
   </component>
 </project>

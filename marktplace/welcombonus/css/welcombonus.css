@@ -9,7 +9,7 @@ img {
 }
 
 .item {
-    background-image: url("https://terafoundation.org/files/dapps/airdrop/img/bg_full.jpg");
+    background-image: url("/img/bg_full.jpg");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
