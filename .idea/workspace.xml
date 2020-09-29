@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Замена исходных *.svg на *.svg оптимизированные">
+    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="wbnwelcome.svg зачищен код">
+      <change afterPath="$PROJECT_DIR$/marktplace/gambling/gambling.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marktplace/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
       <workItem from="1601360307087" duration="171000" />
       <workItem from="1601361763276" duration="69000" />
       <workItem from="1601368436643" duration="939000" />
+      <workItem from="1601388619350" duration="955000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601368465507</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="wbnwelcome.svg зачищен код">
+      <created>1601388673529</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601388673529</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +179,8 @@
     <MESSAGE value="Загрузка исходнико контракта" />
     <MESSAGE value="Форимрование маркетплейса для контрактов" />
     <MESSAGE value="Замена исходных *.svg на *.svg оптимизированные" />
-    <option name="LAST_COMMIT_MESSAGE" value="Замена исходных *.svg на *.svg оптимизированные" />
+    <MESSAGE value="wbnwelcome.svg зачищен код" />
+    <option name="LAST_COMMIT_MESSAGE" value="wbnwelcome.svg зачищен код" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="134" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600802764803">
@@ -208,10 +219,10 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600955047256" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601368576823">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601388683304">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1601368576823" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1601388683304" />
     <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
