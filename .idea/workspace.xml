@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Настраиваю подборку смартов">
+    <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Добавлен Welcome Bonus">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/welcombonus/welcombonus.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,7 +40,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wbn1995" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,7 +47,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,12 +77,6 @@
       <workItem from="1600954705161" duration="984000" />
       <workItem from="1600962959220" duration="833000" />
       <workItem from="1600964796754" duration="244000" />
-      <workItem from="1600967333349" duration="4917000" />
-      <workItem from="1601010758535" duration="6460000" />
-      <workItem from="1601029008107" duration="402000" />
-      <workItem from="1601029848899" duration="5112000" />
-      <workItem from="1601060534923" duration="748000" />
-      <workItem from="1601109435293" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -129,49 +120,7 @@
       <option name="project" value="LOCAL" />
       <updated>1600944222193</updated>
     </task>
-    <task id="LOCAL-00007" summary="Welcome Bonus размещение">
-      <created>1601011619597</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601011619597</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Welcome Bonus размещение">
-      <created>1601012641014</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1601012641014</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Welcome Bonus размещение">
-      <created>1601012717607</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1601012717607</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Welcome Bonus размещение">
-      <created>1601012950056</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1601012950056</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Настраиваю подборку смартов">
-      <created>1601114695875</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1601114695875</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Настраиваю подборку смартов">
-      <created>1601190969591</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1601190969591</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,9 +144,7 @@
     </ignored-roots>
     <MESSAGE value="Загрузка исходнико контракта" />
     <MESSAGE value="Форимрование маркетплейса для контрактов" />
-    <MESSAGE value="Welcome Bonus размещение" />
-    <MESSAGE value="Настраиваю подборку смартов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Настраиваю подборку смартов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Форимрование маркетплейса для контрактов" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="134" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600802764803">
@@ -232,20 +179,17 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="388" y="86" width="534" height="595" key="RollbackChangesDialog/0.0.1318.768@0.0.1318.768" timestamp="1600885721128" />
-    <state x="144" y="25" key="SettingsEditor" timestamp="1600971736831">
-      <screen x="0" y="0" width="1280" height="994" />
+    <state x="148" y="19" key="SettingsEditor" timestamp="1600955047256">
+      <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="144" y="25" key="SettingsEditor/0.0.1280.994@0.0.1280.994" timestamp="1600971736831" />
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600955047256" />
-    <state x="247" y="157" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601190973233">
-      <screen x="0" y="0" width="1280" height="994" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600944240963">
+      <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="247" y="157" key="Vcs.Push.Dialog.v2/0.0.1280.994@0.0.1280.994" timestamp="1601190973233" />
     <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1600944240963" />
-    <state x="340" y="160" width="601" height="676" key="find.popup" timestamp="1601190904488">
-      <screen x="0" y="0" width="1280" height="994" />
+    <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
+      <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="340" y="160" width="601" height="676" key="find.popup/0.0.1280.994@0.0.1280.994" timestamp="1601190904488" />
     <state x="350" y="124" width="618" height="522" key="find.popup/0.0.1318.768@0.0.1318.768" timestamp="1600757613385" />
   </component>
 </project>
