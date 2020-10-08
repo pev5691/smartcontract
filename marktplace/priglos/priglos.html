@@ -107,7 +107,7 @@
         new ElastiStack( document.getElementById( 'elasticstack' ) );
     </script>
 
-<script>
+<!-- script>
 
     //-------------
     //Events
@@ -175,13 +175,31 @@
         var Params={Sum:10};
         SendCall(UserAcc,"Method1",Params,UserAcc);
     }
-</script>
+
+    //--------------
+
+    function TzStart()
+    {
+        var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=860px,width=558px,left=330"
+        button.onclick = function() {
+            window.open("./priglos/priglos.html", "Смарт-контракт ПРИГЛАСИТЕЛЬНЫЙ", params);
+        };
+    }
+
+</script -->
 <div class="social-list__item">
 <select size="1" id="idTestAccount" style="width: 500px">
     <option value="0">Если тут не появились ваши счета - обновите соединение с УСК</option>
 </select>
 <hr>
-<button onclick="SendMethod1()">Подключить этот смарт-контракт к моему счету</button>
+<!-- button onclick="SendMethod1()">Подключить этот смарт-контракт к моему счету</button -->
+    <input type="button" id="TzStart" value="Подключить этот смарт-контракт к моему счету" />
+    <script>
+        var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=860px,width=800px,left=110"
+        TzStart.onclick = function() {
+            window.open("TzStart.html", "Смарт-контракт ПРИГЛАСИТЕЛЬНЫЙ", params);
+        };
+    </script>
     <hr></div>
         <div class="attention" align="center" title="Это тестовый интерфейс, логика ещё не привязана">Для разработки и привязки логики смартконтракта требуется сообразительный пользователь овладевший <br>
             <b>технологией NODEJS и JAVASCRIPT</b>
