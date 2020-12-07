@@ -11,8 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="835ca700-42ea-49ef-8c98-a8f47475a19c" name="Default Changelist" comment="Всплывающие сообщения.&#10;Для имитиции менюшек игрового интерфейса">
-      <change afterPath="$PROJECT_DIR$/marktplace/bukhuchet/test1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/marktplace/bukhuchet/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/marktplace/bukhuchet/test1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,9 @@
       <workItem from="1601388619350" duration="955000" />
       <workItem from="1602192159719" duration="290000" />
       <workItem from="1602194115728" duration="697000" />
-      <workItem from="1602230368870" duration="119000" />
+      <workItem from="1602230368870" duration="744000" />
+      <workItem from="1603174934602" duration="399000" />
+      <workItem from="1607335804611" duration="2295000" />
     </task>
     <task id="LOCAL-00001" summary="Загрузка исходнико контракта">
       <created>1600806078615</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602194204635</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Всплывающие сообщения.&#10;Для имитиции менюшек игрового интерфейса">
+      <created>1602230528967</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602230528968</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,10 +212,10 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="392" y="134" width="526" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1318.768@0.0.1318.768" timestamp="1600802764803" />
-    <state x="442" y="143" width="449" height="484" key="FileChooserDialogImpl" timestamp="1600885424066">
+    <state x="442" y="143" width="449" height="484" key="FileChooserDialogImpl" timestamp="1603175048915">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="442" y="143" width="449" height="484" key="FileChooserDialogImpl/0.0.1318.768@0.0.1318.768" timestamp="1600885424066" />
+    <state x="442" y="143" width="449" height="484" key="FileChooserDialogImpl/0.0.1318.768@0.0.1318.768" timestamp="1603175048914" />
     <state x="498" y="284" key="Github.ShareDialog" timestamp="1600886010553">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
@@ -235,10 +244,10 @@
       <screen x="0" y="0" width="1318" height="768" />
     </state>
     <state x="148" y="19" key="SettingsEditor/0.0.1318.768@0.0.1318.768" timestamp="1600955047256" />
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602194217634">
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602230537007">
       <screen x="0" y="0" width="1318" height="768" />
     </state>
-    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1602194217634" />
+    <state x="254" y="121" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1318.768@0.0.1318.768" timestamp="1602230537007" />
     <state x="350" y="124" width="618" height="522" key="find.popup" timestamp="1600757613385">
       <screen x="0" y="0" width="1318" height="768" />
     </state>

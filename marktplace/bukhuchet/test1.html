@@ -21,6 +21,44 @@
     <title>Модальное окно на чистом CSS</title>
     <style>
         body {
+            background: #90EE90; /* Цвет фона */
+        }
+        .elasticstack {
+            position:relative;
+            margin:40px auto;
+            padding:0;
+            max-width: 540px;
+            height:250px;
+            list-style: none;
+        }
+        .elasticstack li {
+            position: absolute;
+            z-index: 1;
+            box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .elasticstack li img {
+            display:block;
+            width:100%;
+            height:auto;
+        }
+
+        .elasticstack li.animate {
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        .elasticstack li.move-back {
+            -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1);
+            -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.470, 1.515);
+        }
+    </style>
+
+    <style>
+        body {
             font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             font-size: 16px;
             font-weight: 400;
@@ -66,9 +104,9 @@
             margin: 10px;
         }
 
-        @media (min-width: 576px) {
+        @media (min-width: 600px) {
             .modal-dialog {
-                max-width: 500px;
+                max-width: 680px;
                 margin: 30px auto;
             }
         }
@@ -173,11 +211,60 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title">Название</h3>
+                    <h3 class="modal-title">                            <h2 title="Смарт-контракт - это программа, работающая в децентрализованной вычислительной сети, контролирующая выполнение каких-либо условий, описанных на какой-либо специфической логике">СМАРТ-КОНТРАКТ № <b>ХХ-ХХХ</b></h2> <!-- нумерация номер смарта в библиотеке + пересчет подключений -->
+                    </h3>
                     <a href="#close" title="Close" class="close">×</a>
                 </div>
                 <div class="modal-body">
-                    Содержимое модального окна...
+
+                    <div class="layer">
+                        <center>
+                            <h1 title="Это безвозмездная раздача ценностей проекта для привлечения новых участников к активной деятельности">"ПРИГЛАСИТЕЛЬНЫЙ"</h1>
+                            <h3>Является паем участника кооператива "Хайп Благополучие" на сумму 5 монет WBN</h3>
+                            <div title="Прежде чем выполнять какие-то действия, осознай, что ты понял условия и ожидаемый результат достоин твоего внимания и усилий!" align="justify">Прежде чем выполнять какие-то действия, осознай, что ты понял условия и ожидаемый результат достоин твоего внимания и усилий!</div>
+                            <hr>
+                        </center>
+
+                        <ul id="elasticstack" class="elasticstack">
+                            <li><img src="../priglos/img/slaid5.svg" alt="Задача этого смарт-контракта" title="Манипулируй картинкой, сдвигай карточки с текстом за границу интерфейса!"/></li>
+                            <li><img src="../priglos/img/slaid1.svg" alt="Задача участника" title="Манипулируй картинкой, сдвигай карточки с текстом за границу интерфейса!"/></li>
+                            <li><img src="../priglos/img/slaid2.svg" alt="Условия для начала работы" title="Манипулируй картинкой, сдвигай карточки с текстом за границу интерфейса!"/></li>
+                            <li><img src="../priglos/img/slaid3.svg" alt="Завершающий этап взаимодействия" title="Манипулируй картинкой, сдвигай карточки с текстом за границу интерфейса!"/></li>
+                            <li><img src="../priglos/img/slaid4.svg" alt="05" title="Манипулируй картинкой, сдвигай карточки с текстом за границу интерфейса!"/></li>
+                        </ul>
+
+                        <script src="../priglos/js/modernizr.custom.js"></script>
+                        <script src="../priglos/js/draggabilly.pkgd.min.js"></script>
+                        <script src="../priglos/js/elastiStack.js"></script>
+                        <script>
+                            new ElastiStack( document.getElementById( 'elasticstack' ) );
+                        </script>
+
+                        <div class="social-list__item">
+                            <select size="1" id="idTestAccount" style="width: 500px">
+                                <option value="0">Если тут не появились ваши счета - обновите соединение с УСК</option>
+                            </select>
+                            <hr>
+                            <!-- button onclick="SendMethod1()">Подключить этот смарт-контракт к моему счету</button -->
+                            <input type="button" id="TzStart" value="Подключить этот смарт-контракт к моему счету" />
+                            <script>
+                                var params = "menubar=no,location=no,resizable=no,scrollbars=no,status=no,height=860px,width=800px,left=110"
+                                TzStart.onclick = function() {
+                                    window.open("TzStart.html", "Смарт-контракт ПРИГЛАСИТЕЛЬНЫЙ", params);
+                                };
+                            </script>
+                            <hr></div>
+                        <div class="attention" align="center" title="Это тестовый интерфейс, логика ещё не привязана">Для разработки и привязки логики смартконтракта требуется сообразительный пользователь овладевший <br>
+                            <b>технологией NODEJS и JAVASCRIPT</b>
+                            <br>Связь с автором проекта - через контакты на сайте
+                            <div>
+                                <div title="Представлено проектом Благополучие">&copy; 2020 WellBeing Network.</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 </div>
             </div>
         </div>
